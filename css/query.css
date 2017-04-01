@@ -1,0 +1,76 @@
+
+@media(max-width: 499px){
+
+	.gallery img{
+
+		width: 100%;
+	}
+}
+
+
+@media(max-width: 499px){
+
+	.media{
+
+		margin-bottom: 30px;
+	}
+
+	.team img{
+
+		width: 100%;
+	}
+
+	.blog img{
+
+		width: 100%;
+	}
+	 
+	 .blog{
+
+	 	margin-bottom: 20px;
+	 }
+
+	 .client img{
+
+		width: 100%;
+	}
+
+	.instagram img{
+
+		width: 100%;
+	}
+}
+
+@media(max-width: 767px){
+
+	.team{
+
+		margin-bottom: 30px;
+	}
+
+	.people-section{
+
+		margin-bottom: 30px;
+	}
+	.client{
+
+		margin-bottom: 20px;
+	}
+
+	.contact{
+
+		margin-bottom: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
