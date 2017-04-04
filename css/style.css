@@ -114,7 +114,9 @@ body{
 	border-color: transparent;
 	border-bottom: 2px solid rgba(194, 199, 199, 0.38);
 	padding: 20px 0;
-	margin-bottom: 0;
+	margin-bottom:0px;
+	margin-top: 20px;
+
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -130,15 +132,12 @@ body{
 	color: #42b061;
 }
 
-.navbar-right{
+.top_effect{
 
-	background: #125689;
-	position: fixed;
-	margin-left:20%;
-	z-index: 1;
-	margin-top: 0px;
+	background: #ededed;
+	padding: 6px;
+	margin-top: 0;
 }
-
 .search{
 
 	padding: 6px 10px;
@@ -150,6 +149,11 @@ body{
 
 	border-radius: 0;
 	width: auto;
+}
+
+#slider{
+
+	margin: 70px 0;
 }
 
 
@@ -193,15 +197,21 @@ body{
 	margin-right: 10px;
 }
 
+.load{
+
+	margin-top: 30px;
+}
+
 .btn-custom:hover{
 
 	color: #42b061;
 	background: #fff;
 }
 
+
 #about{
 
-	padding: 50px 0;
+	padding:50px 0;
 }
 
 .heading{
@@ -390,12 +400,12 @@ body{
 
 .gallery a{
 
-	color: #fff;
-    background: #42b061;
+	color: #000;
+    background: #fff;
     border-radius: 50%;
-    width: 27px;
-    height: 27px;
-    line-height: 27px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
     padding: 0px;
     transition-duration: 0.7s;

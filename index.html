@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/query.css">
+    <link rel="stylesheet" type="text/css" href="css/camera.css">
+    <link rel="stylesheet" type="text/css" href="css/baguetteBox.css">
   </head>
   <body>
 
@@ -52,7 +54,7 @@
 
 
 
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
 	  <div class="container">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -68,7 +70,7 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      
-	      <ul class="nav navbar-nav navbar-right navbar-fixed-top">
+	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="#">home</a></li>
 	        <li><a href="#about">about us</a></li>
 	        <li><a href="#course-section">services</a></li>
@@ -89,32 +91,61 @@
 	</nav>
 
 
+	<section id="slider">
+		<div class="camera_wrap">
+		    <div data-src="images/carousel.jpg">
+		    	<img src="images/carousel.jpg" class="img-responsive">
+		    	<div class="carousel-caption">
+		        <h2>welcome to</h2>
+		        <h1>coderstrust institute</h1>
+		        <p>Apprriately architect stand alone architectures clicks mortar ebusiness. Interactively redefine world class outsourcing after</p>
+		        <a href="#" class="btn btn-custom">Purchase Now</a>
+		        <a href="#" class="btn btn-custom">View Courses</a>
+		      </div>
+		    </div>
+		    <div data-src="images/sunset.jpg">
+		    	<img src="images/sunset.jpg" class="img-responsive">
+		    	<div class="carousel-caption">
+		        <h2>welcome to</h2>
+		        <h1>coderstrust institute</h1>
+		        <p>Apprriately architect stand alone architectures clicks mortar ebusiness. Interactively redefine world class outsourcing after</p>
+		        <a href="#" class="btn btn-custom">Purchase Now</a>
+		        <a href="#" class="btn btn-custom">View Courses</a>
+		      </div>
+		    </div>
+		    <div data-src="images/pexels-photo.jpg">
+		    	<img src="images/pexels-photo.jpg" class="img-responsive">
+		    	<div class="carousel-caption">
+		        <h2>welcome to</h2>
+		        <h1>coderstrust institute</h1>
+		        <p>Apprriately architect stand alone architectures clicks mortar ebusiness. Interactively redefine world class outsourcing after</p>
+		        <a href="#" class="btn btn-custom">Purchase Now</a>
+		        <a href="#" class="btn btn-custom">View Courses</a>
+		      </div>
+		    </div>
+		    <div data-src="images/pexels-photo2.jpeg">
+		    	<img src="images/pexels-photo2.jpeg" class="img-responsive">
+		    	<div class="carousel-caption">
+		        <h2>welcome to</h2>
+		        <h1>coderstrust institute</h1>
+		        <p>Apprriately architect stand alone architectures clicks mortar ebusiness. Interactively redefine world class outsourcing after</p>
+		        <a href="#" class="btn btn-custom">Purchase Now</a>
+		        <a href="#" class="btn btn-custom">View Courses</a>
+		      </div>
+		    </div>
+		    <div data-src="images/pexels-photo3.jpeg">
+		    	<img src="images/pexels-photo3.jpeg" class="img-responsive">
+		    	<div class="carousel-caption">
+		        <h2>welcome to</h2>
+		        <h1>coderstrust institute</h1>
+		        <p>Apprriately architect stand alone architectures clicks mortar ebusiness. Interactively redefine world class outsourcing after</p>
+		        <a href="#" class="btn btn-custom">Purchase Now</a>
+		        <a href="#" class="btn btn-custom">View Courses</a>
+		      </div>
+		    </div>
+		</div>
+	</section>
 
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner" role="listbox">
-	    <div class="item active">
-	      <img src="images/carousel.jpg" alt="...">
-	      <div class="carousel-caption">
-	        <h2>welcome to</h2>
-	        <h1>coderstrust institute</h1>
-	        <p>Apprriately architect stand alone architectures clicks mortar ebusiness. Interactively redefine world class outsourcing after</p>
-	        <a href="#" class="btn btn-custom">Purchase Now</a>
-	        <a href="#" class="btn btn-custom">View Courses</a>
-	      </div>
-	    </div>
-	    <div class="item">
-	      <img src="images/sunset.jpg" alt="...">
-	      <div class="carousel-caption">
-	        <h2>welcome to</h2>
-	        <h1>coderstrust institute</h1>
-	        <p>Apprriately architect stand alone architectures clicks mortar ebusiness. Interactively redefine world class outsourcing after</p>
-	        <a href="#" class="btn btn-custom">Purchase Now</a>
-	        <a href="#" class="btn btn-custom">View Courses</a>
-	      </div>
-	    </div>
-	  </div>
-	</div>
 
 	<section id="about">
 		<div class="container">
@@ -241,8 +272,8 @@
 	</section>
 
 			
-	<section id="gallery-section" data-js="hero-demo">
-		<div class="container">
+	<section id="gallery-section" data-js="hero-demo" class="baguetteBoxTwo">
+		<div class="container-fluid">
 			<div class="list-inline filters">
 				<button type="button" class="btn btn-info" data-filter="*">Show All</button>
 				<button type="button" class="btn btn-info" data-filter=".html">Html</button>
@@ -250,72 +281,117 @@
 				<button type="button" class="btn btn-info" data-filter=".wp">Wordpress</button>
 			</div>
 			<div class="row grid">
-				<div class="col-sm-4 col-xsm-6 element-item psd">
-					<div class="gallery">
-						<img src="images/gallery1.png" class="img-responsive" alt="">
-						<a href="#" class="search"><i class="fa fa-search"></i></a>
-						<a href="#" class="link"><i class="fa fa-link"></i></a>
+				<div class="col-xsm-3  element-item psd">
+					<div class="row">
+						<div class="gallery">
+							<img src="images/lake.jpg" class="img-responsive">
+							<a href="images/lake.jpg" class="search"><i class="fa fa-search"></i></a>
+							<a href="https://coderimon.github.io/ctg-52-class-6-assinment-2/" target="_blank" class="link"><i class="fa fa-link"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-xsm-6 element-item wp">
-					<div class="gallery">
-						<img src="images/gallery2.png" class="img-responsive" alt="">
-						<a href="#" class="search"><i class="fa fa-search"></i></a>
-						<a href="#" class="link"><i class="fa fa-link"></i></a>
+				<div class="col-xsm-3 element-item wp">
+					<div class="row">
+						<div class="gallery">
+							<img src="images/pexels-photo.jpg" class="img-responsive">
+							<a href="images/pexels-photo.jpg" class="search"><i class="fa fa-search"></i></a>
+							<a href="https://coderimon.github.io/ctg-52-class-6-assinment-3/signup.html" target="_blank" class="link"><i class="fa fa-link"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-xsm-6 element-item html">
-					<div class="gallery">
-						<img src="images/gallery3.png" class="img-responsive" alt="">
-						<a href="#" class="search"><i class="fa fa-search"></i></a>
-						<a href="#" class="link"><i class="fa fa-link"></i></a>
+				<div class="col-xsm-3  element-item html">
+					<div class="row">
+						<div class="gallery">
+							<img src="images/pexels-photo2.jpeg" class="img-responsive">
+							<a href="images/pexels-photo2.jpeg" class="search"><i class="fa fa-search"></i></a>
+							<a href="https://coderimon.github.io/Assignment-of-Bootstrap-Class-Four/" target="_blank" class="link"><i class="fa fa-link"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-xsm-6 element-item psd">
-					<div class="gallery">
-						<img src="images/gallery4.png" class="img-responsive" alt="">
-						<a href="#" class="search"><i class="fa fa-search"></i></a>
-						<a href="#" class="link"><i class="fa fa-link"></i></a>
+				<div class="col-xsm-3  element-item psd">
+					<div class="row">
+						<div class="gallery">
+							<img src="images/lake-powell.jpg" class="img-responsive">
+							<a href="images/lake-powell.jpg" class="search"><i class="fa fa-search"></i></a>
+							<a href="https://coderimon.github.io/Bootstrap-class5-assignment/"  target="_blank" class="link"><i class="fa fa-link"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-xsm-6 element-item html">
-					<div class="gallery">
-						<img src="images/gallery5.png" class="img-responsive" alt="">
-						<a href="#" class="search"><i class="fa fa-search"></i></a>
-						<a href="#" class="link"><i class="fa fa-link"></i></a>
+				<div class="col-xsm-3  element-item html">
+					<div class="row">
+						<div class="gallery">
+							<img src="images/pexels-photo3.jpeg" class="img-responsive">
+							<a href="images/pexels-photo3.jpeg" class="search"><i class="fa fa-search"></i></a>
+							<a href="#" class="link"><i class="fa fa-link"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-xsm-6 element-item wp">
-					<div class="gallery">
-						<img src="images/gallery6.png" class="img-responsive" alt="">
-						<a href="#" class="search"><i class="fa fa-search"></i></a>
-						<a href="#" class="link"><i class="fa fa-link"></i></a>
+				<div class="col-xsm-3  element-item wp">
+					<div class="row">
+						<div class="gallery">
+							<img src="images/lake mountains.jpg" class="img-responsive">
+							<a href="images/lake mountains.jpg" class="search"><i class="fa fa-search"></i></a>
+							<a href="#" class="link"><i class="fa fa-link"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-xsm-6 element-item psd">
-					<div class="gallery">
-						<img src="images/gallery7.png" class="img-responsive" alt="">
-						<a href="#" class="search"><i class="fa fa-search"></i></a>
-						<a href="#" class="link"><i class="fa fa-link"></i></a>
+				<div class="col-xsm-3  element-item psd">
+					<div class="row">
+						<div class="gallery">
+							<img src="images/SplashImages3.png" class="img-responsive">
+							<a href="images/SplashImages3.png" class="search"><i class="fa fa-search"></i></a>
+							<a href="#" class="link"><i class="fa fa-link"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-xsm-6 element-item wp">
-					<div class="gallery">
-						<img src="images/gallery8.png" class="img-responsive" alt="">
-						<a href="#" class="search"><i class="fa fa-search"></i></a>
-						<a href="#" class="link"><i class="fa fa-link"></i></a>
+				<div class="col-xsm-3  element-item wp">
+					<div class="row">
+						<div class="gallery">
+							<img src="images/water-lilies.jpg" class="img-responsive">
+							<a href="images/water-lilies.jpg" class="search"><i class="fa fa-search"></i></a>
+							<a href="#" class="link"><i class="fa fa-link"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-4 col-xsm-6 element-item html">
-					<div class="gallery">
-						<img src="images/gallery9.png" class="img-responsive" alt="">
-						<a href="#" class="search"><i class="fa fa-search"></i></a>
-						<a href="#" class="link"><i class="fa fa-link"></i></a>
+				<div class="col-xsm-3  element-item html">
+					<div class="row">
+						<div class="gallery">
+							<img src="images/aoraki.jpg" class="img-responsive">
+							<a href="images/aoraki.jpg" class="search"><i class="fa fa-search"></i></a>
+							<a href="#" class="link"><i class="fa fa-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xsm-3  element-item psd">
+					<div class="row">
+						<div class="gallery">
+							<img src="images/glen-canyon.jpg" class="img-responsive">
+							<a href="images/glen-canyon.jpg" class="search"><i class="fa fa-search"></i></a>
+							<a href="#" class="link"><i class="fa fa-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xsm-3  element-item html">
+					<div class="row">
+						<div class="gallery">
+							<img src="images/mount-everest.jpg" class="img-responsive">
+							<a href="images/mount-everest.jpg" class="search"><i class="fa fa-search"></i></a>
+							<a href="#" class="link"><i class="fa fa-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xsm-3  element-item wp">
+					<div class="row">
+						<div class="gallery">
+							<img src="images/sun_set.jpg" class="img-responsive">
+							<a href="images/sun_set.jpg" class="search"><i class="fa fa-search"></i></a>
+							<a href="#" class="link"><i class="fa fa-link"></i></a>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-12 text-center">
-				<a href="#" class="btn btn-custom">Load More Works</a>
+				<a href="#" class="btn btn-custom load">Load More Works</a>
 			</div>
 		</div>
 	</section>
@@ -861,11 +937,47 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.nicescroll.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/camera.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
 
-<script>
+<script>   
 
 	$(function(){
+		
 
+		function collapseNavbar() {
+	    if($(".navbar").offset().top>50) {
+	        $(".navbar-fixed-top").addClass("top_effect");
+	    }
+	    else {
+	        $(".navbar-fixed-top").removeClass("top_effect");
+	    	}
+		}
+
+		$(window).scroll(collapseNavbar);
+		$(document).ready(collapseNavbar);
+
+
+
+		baguetteBox.run('.baguetteBoxTwo'),
+
+
+
+
+		$(".camera_wrap").camera({
+			height: '35%',
+			fx: 'random',
+			loader: 'bar',
+			loaderColor: '#125689',
+			loaderBgColor: '#00FF33',
+			loaderOpacity:0.8,
+			loaderPadding: 0,
+			loaderStroke: 12,
+			hover: false,
+			playPause:false,
+			pagination:false,
+			navigation:false,
+		});
 
 		new WOW().init();
 
